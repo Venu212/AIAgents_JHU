@@ -1,0 +1,7 @@
+rmdir /s /q .venv
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip setuptools wheel
+
+-----------
+-- Check if the env working fine 
+.\.venv\Scripts\python.exe -m pip --version
